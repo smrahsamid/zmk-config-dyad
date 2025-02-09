@@ -23,3 +23,5 @@ include:
     shield: dyad_left
   - board: seeeduino_xiao_ble
     shield: dyad_right
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
