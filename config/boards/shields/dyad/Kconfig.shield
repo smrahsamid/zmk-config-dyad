@@ -3,4 +3,3 @@ config SHIELD_DYAD_LEFT
 
 config SHIELD_DYAD_RIGHT
     def_bool $(shields_list_contains,dyad_right)
-
