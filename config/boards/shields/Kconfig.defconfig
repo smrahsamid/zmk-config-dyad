@@ -1,0 +1,16 @@
+if SHIELD_DYAD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Dyad"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DYAD_LEFT || SHIELD_DYAD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

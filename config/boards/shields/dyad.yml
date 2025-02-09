@@ -1,0 +1,11 @@
+file_format: "1"
+id: dyad
+name: dyad
+type: shield
+url: https://github.com/smrahsamid/zmk-config
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+siblings:
+  - dyad_left
+  - dyad_right
