@@ -7,5 +7,6 @@ requires: [seeeduino_xiao_ble]
 features:
   - keys
 siblings:
+  - dyad_dongle
   - dyad_left
   - dyad_right
