@@ -10,19 +10,12 @@ config ZMK_SPLIT
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-    default 1
+    default 2
 
 config BT_MAX_CONN
-    default 6
+    default 7
 
 config BT_MAX_PAIRED
-    default 6
-
-endif
-
-if SHIELD_DYAD_LEFT || SHIELD_DYAD_RIGHT
-
-config ZMK_SPLIT
-    default y
+    default 7
 
 endif
